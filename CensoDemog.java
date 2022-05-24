@@ -28,7 +28,7 @@ public class CensoDemog {
             System.out.println("Qual e a sua altura? ");
 		    altura = scan.nextFloat();
 		
-		    //Condicional para identificação de gêneros e separação de informações pertinentes
+		    //Condicional para identificar os gêneros e separação de informações pertinentes
             if ( genero==1) {
 			midh = midh + idade;
 			contMidh++;
